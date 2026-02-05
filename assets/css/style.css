@@ -41,15 +41,15 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    --spacing-2x1: 4rem;
+    --spacing-2xl: 4rem;
     
     /* Tamanhos da Fonte */
     --text-sm: 0.75rem;
     --text-base: 1rem;
     --text-lg: 1.25rem;
     --text-xl: 1.5rem;
-    --text-2x1: 2rem;
-    --text-3x1: 2.5rem;
+    --text-2xl: 2rem;
+    --text-3xl: 2.5rem;
 
     /* Border Radius */
     --radius-sm: 0.25rem;
@@ -82,7 +82,7 @@
     .section-container {
         max-width: 70rem;
         margin: 0 auto;
-        padding: var(--spacing-xl) var (--spacing-md);
+        padding: var(--spacing-xl) var(--spacing-md);
         scroll-margin-top: 6rem;
     }
 
@@ -164,7 +164,7 @@
     }
 
     #titulo {
-        font-size: var(--text-2x1);
+        font-size: var(--text-2xl);
         font-weight: 700;
     }
 
@@ -191,7 +191,7 @@
     .hero-container {
         display: flex;
         align-items: center;
-        gap: var(--spacing-2x1);
+        gap: var(--spacing-2xl);
         min-height: calc(100vh - 5rem);
     }
 
@@ -208,7 +208,7 @@
     }
 
     .hero-content h1 {
-        font-size: var(--text-3x1);
+        font-size: var(--text-3xl);
         font-weight: 700;
     }
 
@@ -250,8 +250,8 @@
     .about-container {
         display: flex;
         align-items: center;
-        gap: var(--spacing-2x1);
-        margin: var(--spacing-2x1) auto;
+        gap: var(--spacing-2xl);
+        margin: var(--spacing-2xl) auto;
         border-radius: var(--radius-lg);
         background-color: var(--gray-200);
     }
@@ -271,7 +271,7 @@
     .projects-container h2,
     .contact-info h2 {
         margin-bottom: var(--spacing-md);
-        font-size: var(--text-3x1);
+        font-size: var(--text-3xl);
         font-weight: 700;
         color: var(--purple-800);
     }
@@ -306,7 +306,7 @@
     }
 
     .data-number {
-        font-size: var(--text-x1);
+        font-size: var(--text-xl);
         font-weight: 700;
         text-align: center;
         color: var(--purple-500);
@@ -320,7 +320,7 @@
 
     .projects-container {
         scroll-margin-top: 3rem;
-        margin: var(--spacing-2x1) auto;
+        margin: var(--spacing-2xl) auto;
         text-align: center;
     }
 
@@ -454,7 +454,7 @@
     .contact-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: var(--spacing-2x1);
+        gap: var(--spacing-2xl);
     }
 
     .contact-info h2 {
@@ -564,7 +564,7 @@
     }
 
     .success-content h1 {
-        font-size: var(--text-3x1);
+        font-size: var(--text-3xl);
         font-weight: 700;
         color: var(--purple-800);
     }
@@ -611,11 +611,11 @@
 
         /* Tipografia */
         .section-container h1 {
-            font-size: var(--text-3x1);
+            font-size: var(--text-3xl);
         }
 
         .section-container h2 {
-            font-size: var(--text-2x1);
+            font-size: var(--text-2xl);
         }
 
         .section-container p {
@@ -627,7 +627,7 @@
         }
 
         .success-content h1 {
-            font-size: var(--text-3x1);
+            font-size: var(--text-3xl);
         }
 
         .success-content h2 {
